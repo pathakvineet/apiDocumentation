@@ -6,7 +6,7 @@
       "children" :[
         { "name": "/getToken"},
         {  "name": "/checkToken"}
-        ]
+      ]
     },
     {
       "name": "/api",
@@ -30,9 +30,35 @@
         {"name":"/updatePersonalDetails"},
         {"name":"/populateUserDetails"},
         {"name":"/populateUserDetailsClient"},
-        {"name":"/getCountriesList"}
+        {"name":"/getCountriesList"},
+        {"name":"/getPrimarySkills"},
+        {"name":"/getSecondarySkills"},
+        {"name":"/getUserSkills"},
+        {"name":"/updateUserSkills"},
+        {"name":"/deleteUserSkills"},
+        {"name":"/insertUserSkills"},
+        {"name":"/getPrimaryDomains"},
+        {"name":"/getSecondaryDomains"},
+        {"name":"/getUserDomains"},
+        {"name":"/updateUserDomain"},
+        {"name":"/deleteUserDomain"},
+        {"name":"/insertUserDomain"},
+        {"name":"/getAllLicensesTypes"},
+        {"name":"/getUserLicenses"},
+        {"name":"/insertUserLicense"},
+        {"name":"/deleteUserLicense"},
+        {"name":"/updateUserLicense"},
+        {"name":"/getEducationDropdown"},
+        {"name":"/getEducationMajorDropdown"},
+        {"name":"/getQualificationDropdown"},
+        {"name":"/getUserEducation"},
+        {"name":"/deleteUserEducation"},
+        {"name":"/insertUserEducation"},
+        {"name":"/readyForReview"},
+        {"name":"/checkProfileStatus"},   
+        {"name":"/insertUserPayment"},
+        {"name":"/getUserPaymentInfo"}
       ]
-        
     },
     {
         "name": "/*"
