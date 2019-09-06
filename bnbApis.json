@@ -25,7 +25,27 @@
       "children":[
         {"name":"/client"},
         {"name":"/catalyst"},
-        {"name":"/admin"},
+        {
+          "name":"/admin",
+          "children":[
+            {"name":"/usersWaitingForReview"},
+            {"name":"/getUsersDetails"},
+            {"name":"/setAsReviewed"},
+            {"name":"/selectCatalystForJob"},
+            {"name":"/closeBidForJob"},
+            {"name":"/deactivateJob"},
+            {"name":"/selectUserForJob"},
+            {"name":"/jobList"},
+            {"name":"/selectUserAsFirstBackup"},
+            {"name":"/selectUserAsSecondBackup"},
+            {"name":"/openBidForJob"},
+            {"name":"/postJobFromAdmin"},
+            {"name":"/createJobFromAdmin"},
+            {"name":"/createJob"},
+            {"name":"/postJob"}
+
+          ]
+        },
         {"name":"/logout"},
         {"name":"/updatePersonalDetails"},
         {"name":"/populateUserDetails"},
