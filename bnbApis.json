@@ -1,0 +1,9 @@
+{
+    "name":"config/router.js",
+    "children":[{
+        "name": "/google"
+    },{
+        "name": "/api"
+    }
+    ]
+}
