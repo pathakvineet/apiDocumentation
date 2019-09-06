@@ -1,17 +1,41 @@
 {
-    "name":"config/router.js",
-    "children":[{
-        "name": "/google",
-        "children" :[{
-            "name": "/getToken"
-        },
-        {  "name": "/checkToken"
-        }]
-    },{
-        "name": "/api"
-    },{
-        "name": "/api/secured"
-    },{
+  "name":"host:123",
+  "children":[
+    {
+      "name": "/google",
+      "children" :[
+        { "name": "/getToken"},
+        {  "name": "/checkToken"}
+        ]
+    },
+    {
+      "name": "/api",
+      "children" :[
+        {"name":"/test"},
+        {"name":"/authenticate"},
+        {"name":"/validateSignup"},
+        {"name":"/forgotPassword"},
+        {"name":"/signup"},
+        {"name":"/avatarAvailability"},
+        {"name":"//newFileDownload/:token"}
+      ]
+    },
+    {
+      "name": "/api/secured",
+      "children":[
+        {"name":"/client"},
+        {"name":"/catalyst"},
+        {"name":"/admin"},
+        {"name":"/logout"},
+        {"name":"/updatePersonalDetails"},
+        {"name":"/populateUserDetails"},
+        {"name":"/populateUserDetailsClient"},
+        {"name":"/getCountriesList"}
+      ]
+        
+    },
+    {
         "name": "/*"
-    }]
+    }
+  ]
 }
