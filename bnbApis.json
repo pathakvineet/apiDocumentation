@@ -33,7 +33,6 @@
             {"name":"/completedJobs"},
             {"name":"/canceledJobs"},
             {"name":"/openForBiddingJobs"},
-            {"name":"/"},
             {"name":"/draftedJobs"},
             {"name":"/dashboard-mini"},
             {"name":"/uploadfile/:jobId"},
