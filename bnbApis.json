@@ -1,9 +1,17 @@
 {
     "name":"config/router.js",
     "children":[{
-        "name": "/google"
+        "name": "/google",
+        "children" :[{
+            "name": "/getToken"
+        },
+        {  "name": "/checkToken"
+        }]
     },{
         "name": "/api"
-    }
-    ]
+    },{
+        "name": "/api/secured"
+    },{
+        "name": "/*"
+    }]
 }
